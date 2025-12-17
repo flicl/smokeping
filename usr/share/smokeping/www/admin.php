@@ -102,7 +102,7 @@ if ($_POST) {
 
     file_put_contents($configFile, $content);
     // Recarrega o serviço
-    exec('systemctl reload smokeping');
+    exec('sudo systemctl reload smokeping');
     
     // Redireciona para limpar o POST
     header("Location: admin.php");
