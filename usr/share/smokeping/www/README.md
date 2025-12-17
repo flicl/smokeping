@@ -1,5 +1,3 @@
-Segue um README enxuto em português para esse `admin.php`, focado em uso no dia a dia.
-
 ## Visão geral
 
 Este `admin.php` é uma página web para gerenciar, via navegador, os grupos e hosts definidos no arquivo `Targets` do SmokePing, sem precisar editar o arquivo na mão.[1][2]
